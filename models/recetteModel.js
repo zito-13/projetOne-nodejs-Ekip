@@ -1,4 +1,3 @@
-recettesModel.js
 // ── Import ────────────────────────────────────────────────
 const mongoose = require('mongoose'); // Charge Mongoose pour interagir avec MongoDB
 

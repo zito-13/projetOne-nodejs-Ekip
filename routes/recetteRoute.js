@@ -1,8 +1,8 @@
-recettesRouter.js
+// recettesRouter.js
 // ── Imports ───────────────────────────────────────────────
 const express = require('express');        // Charge le framework Express
 const router  = express.Router();         // Crée un routeur Express isolé
-const recettes = require('../models/recettesModel'); // Importe le modèle Mongoose
+const recettes = require('../models/recetteModel'); // Importe le modèle Mongoose
 
 // ── GET / — Récupère toutes les recettes ─────────────────
 router.get('/', async (req, res) => {   // Route GET sur « / »
